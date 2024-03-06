@@ -25,7 +25,7 @@ class UrlRequest extends FormRequest
     {
         return [
             'original_url' => 'required|url:http,https',
-            'allow_visit'  => 'required|integer|min:0',
+            'allow_visit'  => 'required|integer',
             'disabled_at'  => ['required', new DisabledTimeRule]
         ];
     }
