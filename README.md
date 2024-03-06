@@ -1,9 +1,8 @@
 Test project "Url Shortener" instructions by Aleksey Derevyanko
 To run app just follow this few steps:
 
-in root directory run - composer install
-
 create .env or rename .env.example file and replace db connection section by these lines:
+
 DB_CONNECTION=mysql
 DB_HOST=mysql
 DB_PORT=3306
